@@ -129,6 +129,9 @@ The fields were organized as follows:
 
 - `job_title_short` → **Rows**
 - `salary_year_avg` → **Values**
+<img width="759" height="513" alt="2_Project_Analysis_Chart3" src="https://github.com/user-attachments/assets/a2fd2d66-9c90-4e6c-bdda-f76e5e2a1a52" />
+<img width="862" height="452" alt="2_Project_Analysis_Chart4" src="https://github.com/user-attachments/assets/61e58142-3d00-4b71-97d2-b4033c82d0b1" />
+
 
 I then created a DAX measure to calculate the **median salary for jobs in the United States**.
 
@@ -138,6 +141,3 @@ CALCULATE(
     MEDIAN(data_jobs_all[salary_year_avg]),
     data_jobs_all[job_country] = "United States"
 )
-<img width="759" height="513" alt="2_Project_Analysis_Chart3" src="https://github.com/user-attachments/assets/a2fd2d66-9c90-4e6c-bdda-f76e5e2a1a52" />
-<img width="862" height="452" alt="2_Project_Analysis_Chart4" src="https://github.com/user-attachments/assets/61e58142-3d00-4b71-97d2-b4033c82d0b1" />
-
