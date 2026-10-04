@@ -46,7 +46,7 @@ This project helped me understand how to take raw job-market data and transform 
 
 # 📊 Project 2 — Job Market Analysis Using Power Pivot
 
-[🔗 Check out my work here](1_Power_Pivot_Intro_Pt2)
+[🔗 Check out my work here](Project_2-Analysis)
 
 This project focuses on deeper analysis of job-market data using **Power Pivot, Data Models, DAX, PivotTables, and data relationships**.
 
